@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body
+{
+    background: #ebf2ff;
+}
+header
+{
+    width: 100%;
+    background: #fff;
+    overflow: hidden;
+}
+.button-primary
+{
+    background: linear-gradient(to right,#ff512f 0%, #dd2476 51%, #ff512f 100%);
+    color: #fff;
+    outline: none;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.container
+{
+    width: 100%;
+    margin: 0px auto;
+    padding: 0 15px;
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar-brand
+{
+    width: 100px;
+}
+.navbar-brand .navbar-logo
+{
+    width: 100%;
+}
+.nav-item
+{
+    font-weight: 500;
+}
+.hero-container
+{
+    width: 100%;
+}
+.hero-image-container
+{
+    width: 100%;
+}
+.hero-image{
+    width: 100%;
+}
+.hero-text
+{
+    font-size: 32px;
+}
+@media (min-width: 768px)
+{
+    .navbar
+    {
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+    .navbar-brand
+    {
+        width: 150px;
+    }
+    .button-primary
+    {
+        font-size: 18px;
+        padding: 10px 25px;
+    }
+    .hero-container
+    {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 1020px)
+{
+    .container
+    {
+        max-width: 990px;
+    }
+    .hero-image-container
+    {
+        width: 700px;
+    }
+}
+
+@media (min-width: 1400px)
+{
+
+}
