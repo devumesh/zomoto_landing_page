@@ -58,13 +58,27 @@ header
 {
     width: 100%;
 }
-.hero-image{
+.hero-image
+{
     width: 100%;
 }
 .hero-text
 {
     font-size: 32px;
+    color: #1d3557;
+    margin: 15px 0;
 }
+
+/* Menu styles */
+.food-menu-card
+{
+    width: 100%;
+}
+.food-image
+{
+    width: 100%;
+}
+
 @media (min-width: 768px)
 {
     .navbar
@@ -87,6 +101,7 @@ header
         flex-direction: row-reverse;
         align-items: center;
         justify-content: space-between;
+        margin-left: 10px;
     }
 }
 
@@ -94,15 +109,20 @@ header
 {
     .container
     {
-        max-width: 990px;
+        max-width: 1010px;
     }
-    .hero-image-container
+    .hero-text
     {
-        width: 700px;
+        font-size: 60px;
+        margin: 0 10px 0 0;
     }
+
 }
 
 @media (min-width: 1400px)
 {
-
+    .container
+    {
+        max-width: 1250px;
+    }
 }
