@@ -76,6 +76,7 @@ header
     font-size: 32px;
     text-align: center;
     padding: 15px 0;
+    color: #1d3557;
 }
 .food-menu-card
 {
@@ -136,7 +137,75 @@ header
     height: 100%;
     border-radius: 5px;
 }
+.restaurants-description{
+    color: #1d3557;
+    text-align: center;
+    padding: 10px 0;
+}
 
+/* Stay tuned */
+
+.stay-tuned-container{
+    width: 100%;
+    margin: 15px 0;
+}
+.stay-tuned-text
+{
+    text-align: center;
+    font-size: 28px;
+    padding: 10px 0 0;
+    color: #1d3557;
+}
+.stay-tuned-input,
+.stay-tuned-form button
+{
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.stay-tuned-input
+{
+    padding: 5px 10px;
+    font-size: 18px;
+    width: 100%;
+    outline: none;
+}
+
+/* Quote section */
+.quote-container
+{
+    width: 100%;
+    background-image: url(./assets/restaurant.jpg);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    margin: 50px 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.quote-bg-image
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.6;
+    z-index: -1;
+}
+.quote-text-container{
+    width: 100%;
+    z-index: 10;
+    text-align: center;
+    color: #fff;
+    padding: 70px 20px;
+}
+.quote-text-container h1{
+    z-index: 11;
+}
 
 @media (min-width: 768px)
 {
@@ -206,7 +275,7 @@ header
     {
         text-align: center;
         font-size: 48px;
-        padding: 20px 0;
+        padding: 20px;
     }
     .restaurants-flex-row1 .restaurant-1,
     .restaurants-flex-row2 .restaurant-4
@@ -217,6 +286,38 @@ header
     .restaurants-flex-row2 .restaurant-3
     {
         height: 250px;
+    }
+    .button-white
+    {
+        background: #fff;
+        color: #000;
+        font-weight: 600;
+    }
+
+    /* Stay tuned */
+    .stay-tuned-form
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .stay-tuned-text
+    {
+        font-size: 48px;
+    }
+    .stay-tuned-input
+    {
+        padding: 5px 10px;
+        height: 47px;
+        width: 400px;
+        gap: 0;
+    }
+    .stay-tuned-input,
+    .stay-tuned-form button
+    {
+        margin: 0;
     }
 }
 
